@@ -16,8 +16,8 @@ turtle.done()
 
 """
 for i in range(4):
-
-
-
+    turtle_instance.left(90)
+    turtle_instance.forward(200)
+    
 """
 
