@@ -21,7 +21,10 @@ def clear_screen():
     turtle_instance.clear()
 
 def turtle_instance_home():
+    turtle_instance.penup()
     turtle_instance.home()
+    turtle_instance.pendown()
+#To do process faster, we add some spesific rules while returning home!
 
 # What if we don't want Turtle to draw while coming back home or like this...
 def turtle_pen_up():
