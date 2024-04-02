@@ -20,10 +20,14 @@ def rotate_angle_left():
 def clear_screen():
     turtle_instance.clear()
 
+def turtle_instance_home():
+    turtle_instance.home()
+
 drawing_board.listen()
 drawing_board.onkey(fun=turtle_forward,key='space')
 drawing_board.onkey(fun=rotate_angle_right,key='Up')
 drawing_board.onkey(fun=rotate_angle_left,key='Down')
 drawing_board.onkey(fun=clear_screen,key='c')
+drawing_board.onkey(fun=turtle_instance_home,key='h')
 
 turtle.mainloop()
