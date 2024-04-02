@@ -10,7 +10,7 @@ def turtle_forward():
     turtle_instance.forward(100)
 
 def rotate_angle_right():
-
+    turtle_instance.setheading(turtle_instance.heading() + 10)
  #   turtle_instance.right(100)
 
 def rotate_angle_left():
